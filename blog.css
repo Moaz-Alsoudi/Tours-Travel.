@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+header
+{
+  position:relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* padding: 40px 100px; */
+  padding-left: 40px;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+header .logo
+{
+color: #fff; 
+ text-transform: uppercase;
+  cursor: pointer;
+}
+header{
+  background-image: url(diego-ph-5LOhydOtTKU-unsplash.jpg);
+
+
+}
+.menu{
+    position: relative;
+    top: 0px;
+    right: 0;
+    float: right;
+}
+header .logo:hover{
+    color: #03a9f4; 
+}
+
+
+.menu ul li
+{
+  list-style: none;
+ float: left;
+}
+.menu ul li a
+{
+ display: block;
+  text-decoration: none;
+  font-size: 24px;
+  color:white;
+  text-align: center;
+padding: 14px 16px;  
+}
+.menu ul li a:hover
+{
+  color: #03a9f4; 
+}
+
+main{
+    height: 100%;
+    padding-left: 20px;
+    padding-top: 200px;
+
+    background-image: url(diego-ph-5LOhydOtTKU-unsplash.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    
+    
+}
+.container0{
+    padding-top: 20px;
+    padding-bottom: 20px;
+   
+    display:flex;
+    flex-wrap:wrap;
+}
+.container1{
+    display: flex;
+    padding-left: 20px;
+  
+}
+.container2{
+    display: flex;
+  
+    padding-left: 120px;
+  
+}
+.container3{
+    display: flex;
+   
+    padding-left: 120px;
+}
+.container4{
+    display: flex;
+   
+    padding-left: 120px;
+}
+ .container5{
+    display: flex;
+   padding-top: 50px;
+    padding-left: 20px;
+}
+.container6{
+    display: flex;
+    padding-top: 50px;
+    padding-left: 120px;
+}
+.container7{
+    display: flex;
+    padding-top: 50px;
+    padding-left: 120px;
+}
+.container8{
+    display: flex;
+    padding-top: 50px;
+    padding-left: 120px;
+} 
+
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+    
+    
+}
+  
+  .flip-card-inner {
+  
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .flip-card-back {
+    background: rgb(51,77,80);
+    background: linear-gradient(90deg, rgba(51,77,80,1) 15%, rgba(203,202,165,1) 100%);
+    color:rgb(82, 66, 46);
+    transform: rotateY(180deg);
+    padding: 15px 5px;
+  }
+  footer{
+    padding: 50px;
+    margin-top: 0px;
+      text-align: center;
+         background: rgb(65, 68, 68);
+    background: linear-gradient(90deg, rgb(74, 122, 128) 15%, rgb(119, 118, 98) 100%);
+    background-image: url(diego-ph-5LOhydOtTKU-unsplash.jpg);
+    background-position:bottom;
+  }
+ 
+.button
+{
+  display: inline-block;
+  font-size: 1em;
+  background: #fff;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 500;
+  margin-top: 10px;
+  color: #111;
+  letter-spacing: 2px;
+  transition: 0.2s;
+ 
+}
+
